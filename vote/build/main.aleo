@@ -1,3 +1,8 @@
+//try different voting types, e.g. proportional representation etc
+
+
+
+
 program vote.aleo;
 
 struct ProposalInfo:
