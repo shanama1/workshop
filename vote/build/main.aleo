@@ -1,5 +1,21 @@
 //try different voting types, e.g. proportional representation etc
 
+program vote.aleo;
+
+
+mapping proposals:
+	key as field.public;
+	value as ProposalInfo.public;
+
+
+mapping tickets:
+	key as field.public;
+	value as u64.public;
+
+
+mapping agree_votes:
+	key as field.public;
+	value as u64.public;
 
 
 
