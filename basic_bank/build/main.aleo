@@ -1,5 +1,12 @@
 //simulate interest free bank
 
+closure calculate_interest:
+    input r0 as u64;
+    input r1 as u64;
+    input r2 as u64;
+    lt 0u64 r2 into r3;
+    mul r0 r1 into r4;
+    div r4 10000u64 into r5;
 
 
 
