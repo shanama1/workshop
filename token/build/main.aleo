@@ -1,11 +1,11 @@
-//change token name
+//edit finalize section
 
-
-
-
-
-
-
+finalize transfer_private_to_public:
+    input r0 as address.public;
+    input r1 as u64.public;
+    get.or_use account[r0] 0u64 into r2;
+    add r2 r1 into r3;
+    set r3 into account[r0];
 
 
 
