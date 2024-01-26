@@ -1,3 +1,9 @@
+//simulate interest free bank
+
+
+
+
+
 program basic_bank.aleo;
 
 record Token:
