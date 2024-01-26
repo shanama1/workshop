@@ -1,3 +1,8 @@
+//fix and edit the correct sections
+
+
+
+
 // The `program` scope defines the data types, functions, and state associated with the `token` program.
 program token.aleo {
     // On-chain storage of an `account` map, with `address` as the key,
