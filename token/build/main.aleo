@@ -1,3 +1,15 @@
+//change token name
+
+
+
+
+
+
+
+
+
+
+
 program token.aleo;
 
 record token:
